@@ -1,0 +1,35 @@
+<!--index.html-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta 
+      http-equiv="Content-Security-Policy" 
+      content="default-src 'self'; 
+        script-src 'self' 'unsafe-inline'; 
+        font-src 'self' https://fonts.gstatic.com;
+        style-src 'self' https://fonts.googleapis.com">
+
+    <title>svg2msdf</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+  </head>
+  <body>
+    <div class="stage">
+      <h1>Drop svg. Get msdf.</h1>
+      <input type="text" value="-autoframe -format png -keeporder -pxrange 4 -size 128 128" />
+
+      <div class="message">loiasdhfiuashdf iuashdf iuahsdfiuahsdf iahsdloiasdhfiuashdf iuashdf iuahsdfiuahsdf iahsdloiasdhfiuashdf iuashdf iuahsdfiuahsdf iahsdloiasdhfiuashdf iuashdf iuahsdfiuahsdf iahsdloiasdhfiuashdf iuashdf iuahsdfiuahsdf iahsdloiasdhfiuashdf iuashdf iuahsdfiuahsdf iahsdloiasdhfiuashdf iuashdf iuahsdfiuahsdf iahsd</div>
+    </div>
+
+    <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    
+    <!-- You can also require other files to run in this process -->
+    <script src="./script.js"></script>
+  </body>
+</html>
