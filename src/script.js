@@ -33,7 +33,7 @@ function execMsdf(file) {
     // -autoframe -format png -keeporder -pxrange 4 -size 128 128
     const options = option.value;
 
-    let command = `${binaryPath} msdf -svg ${file} -o ${ouputFile} ${options}`;
+    let command = `${binaryPath} msdf -svg "${file}" -o "${ouputFile}" ${options}`;
 
     exec(command, (err, stdout, stderr) => {
       if (err || stderr) {
