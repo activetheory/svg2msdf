@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
-    "make": "electron-packager . svg2msdf --platform=mas,win32 --arch=x64 --overwrite",
+    "make": "electron-packager . svg2msdf --platform=win32 --arch=x64 --overwrite",
     "make_host": "electron-packager . svg2msdf --overwrite"
   },
   "author": "",
